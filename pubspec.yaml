@@ -1,0 +1,108 @@
+name: fragrancebaron
+description: "A new Flutter project."
+
+
+publish_to: 'none' 
+
+
+
+
+
+
+
+
+
+
+
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+
+
+
+
+
+# -----------------------PACKAGES----------------------
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # utility package
+  http: ^1.1.2
+  intl: ^0.19.0
+  logger: ^2.0.2+1
+  url_launcher: ^6.2.3
+  get_storage: ^2.1.1
+  flutter_native_splash: ^2.3.9
+  smooth_page_indicator: ^1.1.0
+  carousel_slider: ^4.2.1
+  
+  # icons
+  cupertino_icons: ^1.0.2
+  iconsax: ^0.0.8
+
+  # state management
+  get: ^4.6.6
+
+
+  # product specific
+
+  # -----------------------PACKAGES END----------------------
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  
+  
+  
+  
+  flutter_lints: ^2.0.0
+
+
+
+
+
+flutter:
+  uses-material-design: true
+
+# -------------------------LOCAL ASSETS--------------------
+  assets:
+   - assets/logos/
+   - assets/images/onboarding_images/
+   - assets/icons/
+   - assets/images/animations/
+  
+# -------------------------LOCAL ASSETS END--------------------
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
